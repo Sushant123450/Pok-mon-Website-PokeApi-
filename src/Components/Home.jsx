@@ -10,7 +10,7 @@ const Home = () => {
         <div>
             {
                 loading ? (<Spinner />) : (
-                    <div className="grid grid-cols-5 row-span-10 gap-x-10 gap-y-5 m-5">
+                    <div className="grid grid-cols-5 row-span-10 gap-x-10 gap-y-5 py-20 px-2">
                         {
                             data.map((Pokemon) => {
                                 const url_data = Pokemon.url.split("/")
