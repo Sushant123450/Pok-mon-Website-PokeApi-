@@ -2,7 +2,7 @@ import React from 'react';
 import "./spinner.css"
 const Spinner = () => {
     return (
-        <div>
+        <div className='flex justify-center items-center h-[100vh]'>
             <div className="lds-ripple">
                 <div>
                 </div>

@@ -4,6 +4,7 @@ import TopBar from './Components/TopBar.jsx';
 import { Route, Routes } from "react-router-dom";
 import { AppContext } from './context/AppContext.jsx';
 import { useContext } from 'react';
+import Spinner from './Components/Spinner.jsx';
 
 function App() {
   const { searchResult } = useContext(AppContext);
