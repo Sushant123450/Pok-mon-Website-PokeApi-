@@ -1,4 +1,4 @@
-How to set up React Vite project?
+## How to set up React Vite project?
 
 1. Download the project from GitHub
 2. Unzip file
